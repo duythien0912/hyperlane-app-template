@@ -14,10 +14,10 @@ import { HelloWorldChecker } from '../deploy/check';
 import { prodConfigs } from '../deploy/config';
 
 // COPY FROM OUTPUT OF DEPLOYMENT SCRIPT OR IMPORT FROM ELSEWHERE
-const deploymentAddresses = {};
+const deploymentAddresses = {"alfajores":{"router":"0x09653D0D74d8B121Dfd5E700454BfA07a5a59b49"},"fuji":{"router":"0x7c98209a47919D770e4c9FE72a66aEac56888654"}};
 
 // SET CONTRACT OWNER ADDRESS HERE
-const ownerAddress = '0x123...';
+const ownerAddress = '0xC8f241D09E9cf0ea69567D37CC9E885172CADb93';
 
 async function check() {
   console.info('Preparing utilities');

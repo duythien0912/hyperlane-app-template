@@ -56,7 +56,10 @@
     "lint": "eslint . --ext .ts",
     "prettier": "prettier --write ./contracts ./src",
     "test": "hardhat test ./src/test/**/*.test.ts",
-    "sync": "ts-node scripts/sync-with-template-repo.ts"
+    "sync": "ts-node scripts/sync-with-template-repo.ts",
+    "deploy": "ts-node src/scripts/deploy.ts",
+    "flatten": "hardhat flatten ./contracts/HelloWorld.sol >> ./cache/FlattenHelloWorld.sol",
+    "check": "ts-node src/scripts/check.ts"
   },
   "types": "dist/src/index.d.ts",
   "resolutions": {

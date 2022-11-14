@@ -5,4 +5,5 @@ export type HelloWorldConfig = RouterConfig;
 // SET DESIRED NETWORKS HERE
 export const prodConfigs = {
   alfajores: chainConnectionConfigs.alfajores,
+  fuji: chainConnectionConfigs.fuji,
 };
