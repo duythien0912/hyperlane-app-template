@@ -13,7 +13,7 @@ import { HelloWorldDeployer } from '../deploy/deploy';
 
 async function main() {
   console.info('Getting signer');
-  const signer = new Wallet('faculty deny sting beef rib cherry reopen bunker undo upon discover hundred');
+  const signer = new Wallet('-------');
 
   console.info('Preparing utilities');
   const chainProviders = objMap(prodConfigs, (_, config) => ({
